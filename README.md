@@ -2,7 +2,7 @@
 Repositório que contém documentos, apresentações e códigos fontes para o treinamento de python.
 
 ## Conteúdo Programático
- - Básico
+ - [Básico](https://github.com/rdenadai/treinamento_python_2019/tree/master/notebooks/Python101)
     - Introdução
         - PEP's
         - Zen of Python
@@ -20,7 +20,7 @@ Repositório que contém documentos, apresentações e códigos fontes para o tr
     - Gerenciamento de pacotes
         - Virtual Environment
         - pyenv
- - Avançado
+ - [Avançado](https://github.com/rdenadai/treinamento_python_2019/tree/master/notebooks/Python201)
     - Debugger (pdb)
     - Orientação a Objetos
     - Tópicos Avançados
@@ -30,11 +30,11 @@ Repositório que contém documentos, apresentações e códigos fontes para o tr
         - Generators
     - MultiThreading
         - Process, Thread, Async
- - Programação Web
+ - [Programação Web](https://github.com/rdenadai/treinamento_python_2019/tree/master/notebooks/PythonWeb)
     - Servidores de aplicação
         - gunicorn, uvicorn e uwsgi
     - Frameworks
-        - Flask
-        - Django
+        - [Flask](https://github.com/rdenadai/treinamento_python_2019/tree/master/notebooks/PythonWeb/flask)
+        - [Django](https://github.com/rdenadai/treinamento_python_2019/tree/master/notebooks/PythonWeb/django)
     - Async frameworks
         - Starlette
