@@ -24,9 +24,9 @@ Repositório que contém documentos, apresentações e códigos fontes para o tr
     - Debugger (pdb)
     - Orientação a Objetos
     - Tópicos Avançados
-        - Lambda
+        - Lambda (Programação Funcional)
         - Collections
-        - Decotators
+        - Decorators
         - Generators
     - MultiThreading
         - Process, Thread, Async
