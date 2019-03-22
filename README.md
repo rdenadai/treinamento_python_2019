@@ -24,10 +24,13 @@ Repositório que contém documentos, apresentações e códigos fontes para o tr
     - Debugger (pdb)
     - Orientação a Objetos
     - Tópicos Avançados
-        - Lambda (Programação Funcional)
+        - Iterators
+        - Generators
+        - Programação Funcional
+            - Lambda
+            - Closure
         - Collections
         - Decorators
-        - Generators
     - MultiThreading
         - Process, Thread, Async
  - [Programação Web](https://github.com/rdenadai/treinamento_python_2019/tree/master/notebooks/PythonWeb)
