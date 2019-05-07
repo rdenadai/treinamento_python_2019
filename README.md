@@ -30,6 +30,7 @@ Repositório que contém documentos, apresentações e códigos fontes para o tr
             - Lambda
             - Closure
         - Collections
+        - DataClass
         - Decorators
     - MultiThreading
         - Process, Thread, Async
