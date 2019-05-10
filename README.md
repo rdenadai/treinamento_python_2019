@@ -33,7 +33,7 @@ Repositório que contém documentos, apresentações e códigos fontes para o tr
         - Collections
         - DataClass
         - Decorators
-    - MultiThreading
+    - Paralelismo e Concorrência
         - Process, Thread, Async
  - [Programação Web](https://github.com/rdenadai/treinamento_python_2019/tree/master/notebooks/PythonWeb)
     - Servidores de aplicação
