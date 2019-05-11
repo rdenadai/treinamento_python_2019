@@ -10,6 +10,10 @@ from .settings import Config
 
 # Start the flask app | Correcting CORS
 application = Flask(__name__)
+application.secret_key = (
+    b"flaskvl^qk#q^ml3v=0lk*b@^88b))hb17u@zj^m#!t#u%rlj$96r_wpython"
+)
+
 cors = CORS(application, resources={r"/*": {"origins": "*"}})
 
 # Assets
