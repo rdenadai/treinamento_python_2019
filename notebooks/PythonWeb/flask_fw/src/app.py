@@ -14,16 +14,16 @@ cors = CORS(application, resources={r"/*": {"origins": "*"}})
 
 # Assets
 # ---------------
-# assets = Environment()
-# js = Bundle("js/default.js", filters="jsmin", output="gen/packed.js")
-# css = Bundle("css/default.css", output="gen/packed.css")
-# assets.register("js_all", js)
-# assets.register("css_all", css)
-# assets.init_app(application)
+assets = Environment()
+js = Bundle("js/default.js", filters="jsmin", output="gen/packed.js")
+css = Bundle("css/default.css", output="gen/packed.css")
+assets.register("js_all", js)
+assets.register("css_all", css)
+assets.init_app(application)
 
 # Configuration
 # ---------------
-application.config.from_object(Confg())
+application.config.from_object(Config())
 
 # Controllers
 # ---------------

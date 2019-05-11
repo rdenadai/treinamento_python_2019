@@ -5,6 +5,6 @@ from flask import jsonify
 api = Blueprint("api", __name__)
 
 
-@api.route("/index/", methods=["POST"])
-def call_record(data):
+@api.route("/api/index/", methods=["GET"])
+def index():
     return jsonify({"id": "It Works"})
