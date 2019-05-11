@@ -2,9 +2,11 @@ import time
 import asyncio
 import aiohttp
 import requests
+import uvloop
 
 
-URL = 'https://www.uol.com.br'  # 'https://google.com.br'
+# URL = "https://www.uol.com.br"
+URL = "https://google.com.br"
 
 
 async def aio_heavy(i, session):
@@ -44,8 +46,13 @@ NUMBERS = range(0, 20)
 
 start = time.time()
 print(asyncio.run(asyncio_example(NUMBERS)))  # Python 3.7+
-print(f'AsyncIO took: {round(time.time() - start, 2)} seconds')
+print(f"AsyncIO took: {round(time.time() - start, 2)} seconds")
+
+uvloop.install()
+start = time.time()
+print(asyncio.run(asyncio_example(NUMBERS)))
+print(f"AsyncIO (uvloop) took: {round(time.time() - start, 2)} seconds")
 
 start = time.time()
 print(regular_example(NUMBERS))
-print(f'Regular took: {round(time.time() - start, 2)} seconds')
+print(f"Regular took: {round(time.time() - start, 2)} seconds")
