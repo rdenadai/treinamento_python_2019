@@ -1,0 +1,8 @@
+{
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "python.pythonPath": "/home/rdenadai/.pyenv/versions/3.7.3/bin/python",
+    "python.formatting.autopep8Path": "black",
+    "python.formatting.provider": "black",
+    "python.linting.pep8Path": "flake8"
+}
