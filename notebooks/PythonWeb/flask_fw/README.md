@@ -6,5 +6,5 @@ App esqueleto para a criaçao de projeto usando o framework Flask.
 
 ```bash
 $> pip install requirements.txt
-$> gunicorn wsgi --workers=3 --reload
+$> gunicorn wsgi --workers=3 --reload -b 0.0.0.0:8585
 ``` 
