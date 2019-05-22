@@ -34,6 +34,9 @@ Executar o projeto com o gunicorn:
 $> gunicorn --reload --workers=3 -b 0.0.0.0:8585 entry.wsgi:application
 ``` 
 
-## Ajuda
+## Referências
 
-[Managing static files](https://docs.djangoproject.com/en/2.2/howto/static-files/)
+ - [Managing static files](https://docs.djangoproject.com/en/2.2/howto/static-files/)
+ - [Class-based views](https://docs.djangoproject.com/en/2.2/topics/class-based-views/)
+ - [Django REST Framework](https://www.django-rest-framework.org/)
+ - [Tutorial Django Girls](https://tutorial.djangogirls.org/pt/)
