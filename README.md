@@ -39,7 +39,7 @@ Repositório que contém documentos, apresentações e códigos fontes para o tr
     - Servidores de aplicação
         - gunicorn, uvicorn e uwsgi
     - Frameworks
-        - [Flask](https://github.com/rdenadai/treinamento_python_2019/tree/master/notebooks/PythonWeb/flask)
-        - [Django](https://github.com/rdenadai/treinamento_python_2019/tree/master/notebooks/PythonWeb/django)
+        - [Flask](https://github.com/rdenadai/treinamento_python_2019/tree/master/notebooks/PythonWeb/flask_fw)
+        - [Django](https://github.com/rdenadai/treinamento_python_2019/tree/master/notebooks/PythonWeb/django_fw)
     - Async frameworks
-        - Starlette
+        - [Starlette](https://github.com/rdenadai/treinamento_python_2019/tree/master/notebooks/PythonWeb/starlette_fw)
