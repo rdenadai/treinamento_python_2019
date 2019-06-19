@@ -14,7 +14,7 @@ Se quiser criar o projeto do zero:
 $> django-admin startproject exemplo
 ``` 
 
-Antes de executar os comandos abaixo, é necessário ao menos definir um STATIC_ROOT no arquivo de **settings.py**.
+Antes de executar os comandos abaixo, é necessário ao menos definir um **STATIC_ROOT** e **MEDIA_ROOT** no arquivo de **settings.py**.
 Essa variável vaid definir em qual local do sistema operacional ficarão os arquivos estáticos do projeto.
 
 ```bash

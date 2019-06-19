@@ -56,7 +56,7 @@ ROOT_URLCONF = "entry.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [os.path.join(BASE_DIR, "templates")],
+        "DIRS": [],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -115,3 +115,4 @@ USE_TZ = True
 
 STATIC_ROOT = "dj_static/"
 STATIC_URL = "/static/"
+MEDIA_ROOT = "dj_media/"
