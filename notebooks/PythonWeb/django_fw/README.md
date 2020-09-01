@@ -5,7 +5,7 @@ App esqueleto para a criaçao de projeto usando o framework Django.
 ## Executar o projeto
 
 ```bash
-$> pip install requirements.txt
+$> pip install -r requirements.txt
 ``` 
 
 Se quiser criar o projeto do zero:
