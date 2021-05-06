@@ -1,6 +1,6 @@
 Flask==1.0.2
 Flask-Assets==0.12
-Flask-Cors==3.0.6
+Flask-Cors==3.0.9
 gunicorn==19.9.0
 jsmin==2.2.2
 cssmin==0.2.0
