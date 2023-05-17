@@ -1,6 +1,6 @@
 gunicorn==19.9.0
 uvicorn==0.11.7
-starlette==0.25.0
+starlette==0.27.0
 aiofiles==0.4.0
 Jinja2==2.11.3
 uvloop==0.12.2
